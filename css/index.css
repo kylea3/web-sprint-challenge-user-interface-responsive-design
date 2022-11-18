@@ -125,7 +125,7 @@ nav {
 /* gallery section */
 .gallery {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
     display: flex;
@@ -221,8 +221,51 @@ footer {
     font-size: 3rem;
     background-color: black;
     color: white;
+    display:flex;
+
 }
 
+.emailsignup {
+    font-size: 2.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.emailsignup p {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-left: 10%;
+}
+#email {
+    display: inline-block;
+    width: 70%;
+    font-size: 2.3rem ;
+}
+
+.emailsignup button {
+    width: 25%;
+    display: inline-block;
+    font-size: 2.3rem;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    font-size: 2.5rem;
+}
+
+.copyright {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
