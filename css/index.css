@@ -65,10 +65,12 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
 }
 
 h2 {
@@ -91,6 +93,13 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+#headblock {
+    background-color: rgba(0,0,0,.75);
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* spacers */
@@ -250,4 +259,9 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+}
+
+/* desktop media query */
+@media (max-width: 1920px) {
+
 }
