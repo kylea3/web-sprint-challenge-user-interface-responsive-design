@@ -101,6 +101,13 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    margin: 2%
+}
 
 /* spacers */
 .spacer {
