@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 h1 {
     font-size: 7.5rem;
     text-align: center;
+    padding: 1%;
 }
 
 h2 {
@@ -106,7 +107,7 @@ nav {
     justify-content: center;
 }
 .icons {
-    margin: 2%
+    margin: 2%;
 }
 
 /* spacers */
@@ -127,6 +128,14 @@ nav {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 25%;
+    margin: 1%;
+
 }
 
 /* about us section */
@@ -210,6 +219,8 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+    color: white;
 }
 
 /* mobile media query */
