@@ -330,53 +330,55 @@ footer nav {
     }
     footer nav {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         height: 100%;
     }
     
     .emailsignup {
         font-size: 2.5rem;
-        width: 40%;
+        width: 100%;
         text-align: center;
     }
     
     .emailsignup p {
-        display: block;
+        display: flex;
+        flex-direction: column;
         font-size: 2.5rem;
-        margin-left: 10%;
+        margin-left: 0%;
+        color: white;
     }
     #email {
-        display: inline-block;
-        width: 50%;
-        font-size: 2.3rem ;
+        width: 80%;
+        font-size: 1.6rem ;
     }
     
     .emailsignup button {
-        width: auto;
-        display: inline-block;
+        width: 80%;
         font-size: 1.6rem;
     }
     
     .footnavlinks {
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
     
     .footnavlinks a {
-        font-size: 2.5rem;
+        font-size: rem;
+        color: white;
     }
     
     .copyright {
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: right;
-        margin-right: 5%;
-        width: 55%;
+        width: 90%;
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        align-items:flex-end;
+        justify-content:center;
+        align-items:center;
     }
 }
 
