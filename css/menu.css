@@ -266,7 +266,7 @@ footer nav {
     .overlay {
         background-color: rgba(225, 239, 230, 0);
     }
-    .menu h1, h2, h3, h4, h5, h6, p, a, i {
+    .menu h1, .menu h2, .menu h3, .menu h4, .menu h5, .menu h6, .menu p, .menu a, .menu i {
         color: black;
     }
     .menu h2 {
